@@ -1,0 +1,141 @@
+/*
+colors:
+- teal = rgb(92, 225, 230)
+- dark-teal = rgb(3, 152, 158)
+- pink = rgb(255, 44, 169)
+- muted-lavender = rgb(165, 118, 199)
+- black
+- white
+- dark grey = rgb(42, 43, 42)
+- channel grey = rgb(66, 71, 67)
+*/
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: table;
+    margin: 0;
+}
+
+#non-header{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    background-color: rgb(42, 43, 42);
+    color: white;
+    height: 100%;
+}
+
+#wack-logo{
+    height: 2.5rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.channel-name{
+    background-color: rgb(66, 71, 67);
+    color: white;
+    /*border-style: solid;
+    border-color: black;
+    border-radius: 0.5rem;*/
+    border-style: none;
+}
+
+.channel-name:before, #channel-title:before{
+    content: '#';
+}
+
+li{
+    margin: 1rem;
+}
+
+ul{
+    list-style-type: square;
+}
+
+.submit-btn, .add{
+    margin-left: 0.1rem;
+    border-radius: 0.5rem;
+    border-width: 1px;
+}
+
+.submit-btn{
+    margin-left: 0.5rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    background-color: rgb(255, 44, 169);
+    color: white; 
+    border-color: white;
+}
+
+.add{
+    border-radius: 100%;
+    background-color: rgb(92, 225, 230);
+    border-color: rgb(3, 152, 158);
+    font-size: small;
+}
+
+.message-data{
+    background-color: rgb(165, 118, 199);
+    padding: 2rem;
+    border-radius: 1rem;
+    font-weight: normal;
+}
+
+.message{
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.author{
+    margin-bottom: 0.5rem;
+}
+
+.message-info{
+    color: lightgrey;
+    font-size: 0.5em;
+    margin-top: 0.5rem;
+}
+
+.nav-list{
+    padding: 1rem;
+}
+
+/* The sidebar menu */
+.sidenav {
+    color: white;
+    margin: 0;
+    padding: 1rem;
+    width: 350px;
+    background-color: black;
+    position: fixed;
+    height: 100%;
+    
+  }
+
+  .content{
+      margin-left: 300px;
+  }
+
+  @media screen and (max-width: 700px){
+      .sidenav{
+          width: 100%;
+          height: auto;
+          position: relative;
+      }
+      .content{
+          margin-left: 0;
+      }
+  }
