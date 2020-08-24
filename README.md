@@ -1,5 +1,7 @@
 # Wack
 
+<img src="https://github.com/isabellaenriquez/wack/blob/master/static/WackLogo.png" style="height: 15vh;">
+
 Welcome to Wack, a simple chat web application emulating the famous 'Slack.' This was made for CS50's Web Programming with Python and Javascript course (2018 edition). 
 
 What you'll find in each file:
