@@ -5,7 +5,7 @@ Welcome to Wack, a simple chat web application emulating the famous 'Slack.' Thi
 What you'll find in each file:
 - index.html: HTML template for the website
 - application.py: Server-side communcation
-- index.js: Client-side coommunication
+- index.js: Client-side communication
 - wack.css: Stylesheets
 
 I simplified the site enough so that only one file was needed for each aspect-- one template, one file for the server, one file for the client, and one stylesheet.
