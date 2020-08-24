@@ -1,6 +1,6 @@
-# Project 2: Wack
+# Wack
 
-Welcome to Wack, a simple chat web application emulating the famous 'Slack.' This was made for CS50's Web Programming with Python and Javascript course. 
+Welcome to Wack, a simple chat web application emulating the famous 'Slack.' This was made for CS50's Web Programming with Python and Javascript course (2018 edition). 
 
 What you'll find in each file:
 - index.html: HTML template for the website
@@ -13,3 +13,6 @@ I simplified the site enough so that only one file was needed for each aspect-- 
 ## Personal Touches
 For my personal touches, I made it so that users can see every other user that is currently in the channel they are in. It updates when users leave the channel. I also created a home page whose landing message was different depending on whether the user has visited the site, or is doing so for the first time. And finally, I made it so that when a user made a channel, that channel had a "Welcome" message from the Wack-Bot to initialize the conversation. 
 
+---
+
+Watch the demo <a href="https://www.youtube.com/watch?v=sTmE8sPvVIQ&list=PLH2wYuURvrWQskB8BvBHlLlFj8IeHopvF&index=3">here!</a>
